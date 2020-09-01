@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Showdown Translation
 // @namespace    http://tampermonkey.net/
-// @version      1.4
+// @version      1.5
 // @description  PSChina Server Translation剑盾测试先行版汉化脚本已发布，对汉化内容有疑问请联系圣光(QQ:964323779)
 // @author       Ceca3
 // @match        http://china.psim.us/*
@@ -9,7 +9,6 @@
 // @match        http://replay.pokemonshowdown.com/*
 // @match        https://replay.pokemonshowdown.com/*
 // @match        https://play.pokemonshowdown.com/*
-// @match        http://localhost:8000/*
 // @grant        none
 // @require      https://code.jQuery.com/jquery-2.1.4.min.js
 // @run-at       document-end
@@ -568,6 +567,7 @@ var translations={
     "Neutralizing Gas":"化学变化气体",
     "Pastel Veil":"粉彩护幕",
     "Hunger Switch":"饱了又饿",
+    "Unseen Fist": "无形拳",
 
     "No Ability":"无特性",
 
@@ -1351,6 +1351,27 @@ var translations={
     "Meteor Assault":"流星突击",
     "Eternabeam":"无极光束",
     "Steel Beam":"铁蹄光线",
+    "Wicked Blow": "暗冥强击",
+    "Surging Strikes": "水流连打",
+    "Coaching": "指导",
+    "Lash Out": "泄愤",
+    "Scale Shot": "鳞射",
+    "Expanding Force": "广域战力",
+    "Meteor Beam": "流星光束",
+    "Shell Side Arm": "臂贝武器",
+    "Misty Explosion": "薄雾炸裂",
+    "Grassy Glide": "青草滑梯",
+    "Rising Voltage": "电力上升",
+    "Terrain Pulse": "大地波动",
+    "Skitter Smack": "爬击",
+    "Burning Jealousy": "妒火",
+    "Poltergeist": "灵骚",
+    "Corrosive Gas": "腐蚀气体",
+    "Flip Turn": "快速折返",
+    "Triple Axel": "三旋击",
+    "Dual Wingbeat": "双翼",
+    "Scorching Sands": "热沙大地",
+    "Jungle Healing": "丛林治疗",
 
 
     "Hidden Power Bug":"觉醒力量-虫",
@@ -1399,6 +1420,13 @@ var translations={
     "G-Max Steelsurge":"超极巨钢铁阵法",
     "G-Max Depletion":"超极巨劣化衰变",
     "G-Max Stun Shock":"超极巨异毒电场",
+    "G-Max Drum Solo":"超极巨狂擂乱打",
+    "G-Max Fireball":"超极巨破阵火球",
+    "G-Max Hydrosnipe":"超极巨狙击神射",
+    "G-Max Vine Lash":"超极巨灰飞鞭灭",
+    "G-Max Cannonade":"超极巨水炮轰灭",
+    "G-Max One Blow":"超极巨夺命一击",
+    "G-Max Rapid Flow":"超极巨流水连击",
 
     "Usually useless moves":"多数情况无用的招式",
     "Sketched moves":"通过写生获得的招式",
@@ -2942,6 +2970,12 @@ var translations={
         "Duraludon-Gmax":"铝钢龙-超极巨化",
         "Zacian-Crowned":"苍响-剑之王",
         "Zamazenta-Crowned":"藏玛然特-盾之王",
+        "Rillaboom-Gmax":"轰擂金刚猩-超极巨化",
+        "Cinderace-Gmax":"闪焰王牌-超极巨化",
+        "Inteleon-Gmax":"千面避役-超极巨化",
+        "Venusaur-Gmax":"妙蛙花-超极巨化",
+        "Blastoise-Gmax":"水箭龟-超极巨化",
+        "Urshifu-Gmax":"武道熊师-超极巨化",
         "-Mega":"-超级进化",
         "-Mega-X":"-超级进化X",
         "-Mega-Y":"-超级进化Y",
